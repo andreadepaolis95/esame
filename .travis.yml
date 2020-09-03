@@ -3,11 +3,11 @@ language: java
 jdk:
  - openjdk11
  
- addons:
+addons:
   sonarcloud:
-    organization: "andreadepaolis95"
+    organization: "andreadepaolis95" # the key of the org you chose at step #3
     token:
-      secure: "43fddcc628656182d23f1ba92536c0fa9094c5b0"
+      secure: "43fddcc628656182d23f1ba92536c0fa9094c5b0" # encrypted value of your token
 
 script:
   - ant build
