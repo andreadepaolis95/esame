@@ -3,5 +3,18 @@ language: java
 jdk:
  - openjdk11
  
+ addons:
+  sonarcloud:
+    organization: "andreadepaolis95"
+    token:
+      secure: ""
+
+script:
+  - ant build
+  - sonar-scanner
+ 
+
+  
+
 script:
   - ant build
