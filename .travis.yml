@@ -7,7 +7,7 @@ addons:
   sonarcloud:
     organization: "andreadepaolis95" # the key of the org you chose at step #3
     token:
-      secure: $SONAR_TOKEN
+      secure: "ESfe+ix3/Z46e4H3cAeJdyJWD6/1ZYrImm4oeCrVE/WMhMXOw33Yay+q6qVao0rsoxwe/Zi+a4rWYPVVYRI9SIzeePXRPQE70lyK7eUJ16fXu1T4neTBgnK11B2Zd429MnBBuDbXINtfyq87xtwcnjYOaZDmlrmE5C05Ps9bHq74Duv1crAU7c8+seL1D1XhxzugBPx/1vIteFoMFfHexhQ9xkksiyM0ETjXcUMkAkQz7u6IhvrmvNV/IjEggnkS/wEDiZ8wqBScoiKWn8oKKMXFgXHytl96IvrbUMwbQiW6Shyrk6E23akKNnA3xNCatMuLRDaUJE31zuRVgRFd5bUxkzxWLaFcPye8aKc2huPLdngBONmFjEZEmG4BZlwcd8PiMvo5HQN1uwwK02pAJaGUeETNQ+P8OwmGv43xT50K/Huel8aWXUTvhEX6dY7ER91UE+oWOM/PmLYCIsHeeTg2TGoQFOC0auPAufT2MOBkiSmmgjlmcrG50F64CkWJUHMpjdmm76hd7X2IZ5hEcWrtij6sEmi0d0wRCBGdwYEMGfw91CsZ6Xsyy+IttQub9PUWh3R8b/zAoSGcd5BwZp+RQedLxU5maQ7se1GY2T1e803HmzaEYBbf40E1n1dB28NxIrzdRmmitNjYN3Z5mTLN0HIINKkw/NJeA9r1UkM="
 
 script:
   - ant build
