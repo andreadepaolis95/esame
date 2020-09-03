@@ -7,7 +7,8 @@ addons:
   sonarcloud:
     organization: "andreadepaolis95" # the key of the org you chose at step #3
     token:
-      secure: "43fddcc628656182d23f1ba92536c0fa9094c5b0" # encrypted value of your token
+      secure: "Tsa9AHCI1JkjOw6IDcrcMr8tNuDNkZxjqnUiWjaWu3luaCEQaETEzWXWFm2QMLQdeCWGvr9ae7GGKmMWJsroddMwqgXNozcpGpd38rXv/xyXlNLqz82LovLelhm5kUP4eTubndvljElP7CQy2ZuZdzwibRr+vPhyRYUMIaKrsrBdFhK+jfiS43r/nZ1Nqbk+17CdsXYx12V8PAoOLd3BWyi+qOBPbNfS+vDXRS+g2AGYKCMaeCGsP7vM7OT2Bl7sWbfV9CTya+dQEwXYhS5o3ZCoUchWZzit2WV1ZKyFHTmulvTrMdhVmfwIVp51r5nPLD6AXCFUaVq/CetObLGJRVAVEZ1L/5xty424PuOMtaWQb3OvXcbJNdb9hPmjeH458M66oANDkHUpbyuaRr4K5oA9fFsq0I4HFYK0ADNVdScYyFemvhJVL2YaQIa1RembaAIl5PDc+/TgjdEod0bsJXoGjrhIqpr0g6qgmv0P/F6JcU8T8YI0nlGjqel6Qf4EFj2htvHyy9GeNgk8pYsey4+4aEcsVevClvz2crzKACO34yOhFK5FaAtlSbdTIxauJm6Odluani47g5NpvrOQ0lRRnKwAESI/e7fvZy68fvtkZrkxMGudjx+vx9+W+ygpNfHvArN1FSTGUonKw5JNRqF4oB5jJQEHEkDOnmkxIDs="
+
 
 script:
   - ant build
