@@ -13,8 +13,3 @@ script:
   - ant build
   - sonar-scanner
  
-
-  
-
-script:
-  - ant build
